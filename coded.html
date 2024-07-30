@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch Web Application</title>
+    <link rel="stylesheet" href="styled.css">
+</head>
+<body style="background-color: black">
+    <div class="container">
+        <h1 style="color:white; text-align:center">Stopwatch</h1><br><br><br><br><br><br>
+        <div class="stopwatch">
+            
+            <div class="bdr"></div>
+                <div class="content"> 
+            <span id="minutes" class="text min">00</span><label>min</label>:
+            <span id="seconds" class="text sec">00</span><label>sec</label>:
+            <span id="milliseconds" style="font-size:15px" class="text ms"> 00</span>
+            </div>
+        </div><br><br><br><br><br><br><br>
+        <div class="wrapper">
+        <div class="controls">
+            <button id="startStopBtn"  class="button"  style="font-weight: bold;">Start</button>
+        </div>
+        <div class="controls">
+            <button id="resetBtn" class="button" style="font-weight: bold;">Reset</button>
+        </div>
+        <div class=" controls laps">
+            <button id="lapBtn" class="button" style="font-weight: bold;">Lap</button>
+            
+        </div>
+        
+        
+    </div>
+    <br>
+    <div class="scroll">
+        <table class="table" id="tablist_data">
+            
+        </table>
+    </div>
+    </div>
+    <script src="scripted.js"></script>
+</body>
+</html>
